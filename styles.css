@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Home page, nav bar, and footer styling */
+
+.nav-bar {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.5em;
+  color: black;
+  vertical-align: middle;
+  padding: 1.1em;
+}
+
+@media (max-width: 590px) {
+  .nav-bar a {
+    padding: 0px;
+  }
+}
+
+.nav-option:hover {
+  background-color: #ffcc00;
+  border-radius: 50px;
+}
+
+.nav-bar li {
+  display: inline-block;
+  padding: 1em;
+}
+
+.bfb-nav-logo {
+  width: 150px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+#banner-image {
+  width: 100%;
+  max-height: 400px;
+  max-width: 1500px;
+  object-fit: cover;
+}
+
+.home-page-text {
+  text-align: center;
+  margin: 1.1em;
+}
+
+.main-home-page-text {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.secondary-home-page-text {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+footer {
+  background-color: #c2c2c2;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+}
+
+footer ul {
+  margin: auto;
+}
+
+footer ul li {
+  display: inline-block;
+  align-items: center;
+  font-size: 1.4em;
+  margin: 10px;
+}
+
+footer ul a {
+  vertical-align: middle;
+}
+
+footer img {
+  height: 40px;
+}
+
+.social-icon {
+  margin: 0px 5px;
+}
+
+/* Menu Styling */
+.menu-item-container {
+  display: flex;
+  background-color: #ffcc00;
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.menu-item-text-container {
+  flex: 1;
+  padding: 20px;
+  margin: auto;
+}
+
+.menu-item-text-container div {
+  text-align: center;
+}
+
+.menu-item-image-container {
+  flex: 1;
+}
+
+.menu-item-image-container img {
+  width: 400px;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 2em;
+  object-fit: cover;
+}
+
+/* Removes image if screen becomes too small */
+@media (max-width: 765px) {
+  .menu-item-image-container {
+    display: none;
+  }
+}
+
+.menu-item-text-title {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.menu-item-text-description {
+  font-weight: 500;
+  font-size: 1em;
+  margin-top: 1.3em;
+}

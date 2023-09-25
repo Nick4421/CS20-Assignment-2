@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Newsletter</title>
+    <link rel="icon" href="media/banana-icon.png" />
+    <style>
+      form {
+        margin: auto;
+      }
+      .banana-text {
+        text-align: center;
+        margin: 1.5em 2em;
+        font-size: 1.4em;
+        font-weight: 800;
+      }
+
+      form input {
+        width: 100%;
+        max-width: 700px;
+        padding: 10px;
+        margin: 10px 20px;
+        border: 0;
+        box-shadow: 0 0 15px 4px rgba(255, 204, 0, 1);
+        border-radius: 10px;
+      }
+
+      form label {
+        margin: 10px 20px;
+      }
+
+      @media (max-width: 750px) {
+        form input {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul class="nav-bar">
+      <li>
+        <a href="index.html">
+          <img
+            src="media/bfb.jpg"
+            alt="Bluth's Frozen Bananas logo"
+            class="bfb-nav-logo"
+          />
+        </a>
+      </li>
+
+      <li><a href="menu.html" class="nav-option">Menu</a></li>
+
+      <li><a href="#" class="nav-option">Newsletter</a></li>
+    </ul>
+
+    <div class="banana-text">
+      Follow our newsletter to recieve all banana-related news!
+    </div>
+    <form action="#">
+      <label for="name">Name: </label><br />
+      <input type="text" id="name" placeholder="Name" />
+      <br /><br />
+      <label for="email_addy">Email Address: </label><br />
+      <input type="text" id="email_addy" placeholder="Email Address" />
+      <br />
+      <input type="submit" value="Submit" class="submit-btn" />
+    </form>
+
+    <footer>
+      <ul>
+        <li>Contact Us</li>
+        <li>
+          <a href="https://twitter.com" target="_blank" class="social-icon"
+            ><img src="media/twitter-icon.png" alt="twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" class="social-icon"
+            ><img src="media/instagram-icon.png" alt="instagram icon"
+          /></a>
+        </li>
+        <li>
+          <a href="https://facebook.com" target="_blank" class="social-icon"
+            ><img src="media/facebook-icon.png" alt="facebook icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
